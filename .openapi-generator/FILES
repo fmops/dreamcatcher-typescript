@@ -1,0 +1,52 @@
+.gitignore
+.openapi-generator-ignore
+DlpPoliciesApi.md
+DlpZsnerPoliciesApi.md
+EndpointsApi.md
+README.md
+StubOpenaiApi.md
+apis/DlpPoliciesApi.ts
+apis/DlpZsnerPoliciesApi.ts
+apis/EndpointsApi.ts
+apis/StubOpenaiApi.ts
+apis/baseapi.ts
+apis/exception.ts
+auth/auth.ts
+configuration.ts
+git_push.sh
+http/http.ts
+http/isomorphic-fetch.ts
+index.ts
+middleware.ts
+models/Chat completion message.ts
+models/Chat completion response.ts
+models/ChatCompletionResponseChoicesInner.ts
+models/Completion response.ts
+models/Completion.ts
+models/CompletionResponseChoicesInner.ts
+models/ContentModerationPolicy.ts
+models/Create chat completion.ts
+models/DlpPolicy.ts
+models/DlpPolicyAnonymizer.ts
+models/DlpPolicyParams.ts
+models/DlpZsnerPolicy.ts
+models/DlpZsnerPolicyEntitiesInner.ts
+models/DlpZsnerPolicyParams.ts
+models/DreamcatcherWebPresidioPolicyControllerScan200Response.ts
+models/DreamcatcherWebPresidioPolicyControllerScanRequest.ts
+models/Embedding .ts
+models/EmbeddingResponseInner.ts
+models/ListEndpointResponseInner.ts
+models/ListModelsResponse.ts
+models/ListModelsResponseDataInner.ts
+models/ObjectSerializer.ts
+models/ShowEndpointResponse.ts
+models/all.ts
+package.json
+rxjsStub.ts
+servers.ts
+tsconfig.json
+types/ObjectParamAPI.ts
+types/ObservableAPI.ts
+types/PromiseAPI.ts
+util.ts
