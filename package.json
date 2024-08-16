@@ -1,0 +1,16 @@
+{
+  "name": "dreamcatcher-python",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "curl https://dreamcatcher.blueteam.ai/api/v1/openapi > openapi.json && openapi-generator-cli generate -i openapi.json -g typescript-fetch -o . -c config.yaml --skip-validate-spec"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^2.13.4"
+  }
+}
